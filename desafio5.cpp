@@ -4,7 +4,7 @@ using namespace std;
 
 bool verificaRequisitos (int idade, float salario) {
 
-    if (idade == 21 && salario <= 1200) {
+    if (idade >= 21 && salario <= 1200) {
         return true;
     } else {
         return false;

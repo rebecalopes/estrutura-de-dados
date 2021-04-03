@@ -2,6 +2,7 @@
 
 using namespace std;
 
+//alocação estatica
 int main() {
     
     //declaração de vetores
@@ -23,6 +24,10 @@ int main() {
     for (int i = 0; i<7; i++){
         cout << vetor[i] << endl;
     }
+
+    //verifica tamanho do vetor em bytes
+    int x = sizeof(vetor);
+    cout << x << endl;
 
     return 0;
 }

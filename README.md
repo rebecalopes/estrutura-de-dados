@@ -1,2 +1,3 @@
 # estrutura-de-dados
-Estudos de estrutura de dados com C++
+Repositório de estudos da disciplina de estrutura de dados usando C++
+Univesp 
